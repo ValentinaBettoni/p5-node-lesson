@@ -11,7 +11,7 @@ function newConnection() {
 function newBroadcast(data) {
   console.log(data);
   fill("DarkOrange");
-  circle(data.x, data, y, 20);
+  circle(data.x, data.y, 20);
 }
 
 function setup() {
