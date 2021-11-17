@@ -10,8 +10,9 @@ function newConnection() {
 
 function newBroadcast(data) {
   console.log(data);
-  fill("DarkOrange");
-  circle(data.x, data.y, 20);
+  stroke("DarkCyan");
+  fill("CadetBlue");
+  circle(data.x, data.y, 10);
 }
 
 function setup() {
@@ -20,8 +21,9 @@ function setup() {
 }
 
 function draw() {
-  fill("yellow");
-  circle(mouseX, mouseY, 20);
+  stroke("DarkMagenta");
+  fill("DarkOrchid");
+  circle(mouseX, mouseY, 10);
 }
 
 function mouseMoved() {
